@@ -1,0 +1,19 @@
+﻿///////////////////////////////
+// First Snippet Title
+        <Style x:Key="TitleStyle" TargetType="TextBlock">
+            <Setter Property="FontSize" Value="35"/>
+        </Style>
+///////////////////////////////
+// Second Snippet Title
+partial line:Style="{StaticResource TitleStyle}"
+///////////////////////////////
+Snippet content (no title)
+///////////////////////////////
+--------------------------
+///////////////////////////////
+// Second Snippet Section
+        <ControlTemplate x:Key="SubmitButtonTemplate" TargetType="Button">
+            <Grid Width="70" Height="20"  Background="DarkGray">
+                <TextBlock Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="12" FontFamily="/fonts/IngebretsenNeato.ttf#Ingebretsen Neato" Text="Submit"/>
+            </Grid>
+        </ControlTemplate>
